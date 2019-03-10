@@ -1,7 +1,11 @@
-# Welcome to Bepis Bot
+Screw Bepis Bot. It's clumsy and hard to configure.
+### Introducing Boopis Bot
+
+
+### Below is just the plain Bepis Bot documentation until we update Boopis
 
 ## Features
-Bepisbot allows to setup new kewords based on predefined functions. By default, the bot only allows the Server admin to create new kewords. For instance, to create a command for help, the Admin would type the following:
+Boopis Bot allows to setup new kewords based on predefined functions. By default, the bot only allows the Server admin to create new kewords. For instance, to create a command for help, the Admin would type the following:
 ```
 !teach help LIST_TRICKS
 ```
@@ -29,24 +33,3 @@ The following are Admin-only functions:
 1. NEW_TRICK: Command to teach new tricks to the bot. By default "teach"
 1. FORGET_TRICK
 1. SCAN_CHANNELS: Takes a channel id as optional argument, otherwsie it scans and indexes all channels registered with other functions, such as CATCH_INVENTORY or RANDOM_POST
-
-## Setup 
-
-1. Install the different frameworks
-   - Node & NPM: https://www.npmjs.com/get-npm
-   - Visual Studio Code: https://code.visualstudio.com/
-
-WIP
-
-## Running Unit Tests
-
-- Install Jasmine-Node
-```
-npm install jasmine-node -g
-```
-- Running unit tests
-```
-jasmine-node spec/ --autotest
-```
-- Writing unit tests
-https://jasmine.github.io/tutorials/your_first_suite
