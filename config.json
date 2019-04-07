@@ -1,0 +1,28 @@
+{
+	"prefix": "!",
+	"gameloopinterval": 300000,
+	"gameloop": [
+		{
+			"text": "with shibes!",
+			"type": "PLAYING"
+		},
+		{
+			"text": "with precious potats",
+			"type": "PLAYING"
+		},
+		{
+			"text": "bepis sing machine",
+			"type": "LISTENING"
+		},
+		{
+			"text": "your shibes",
+			"type": "WATCHING"
+		},
+		{
+			"text": "your commands",
+			"type": "LISTENING"
+		}
+	],
+	"joinmsg": "Welcome, **${user}**, to the shibe cult! Please read #important for more info",
+	"leaveinfo": "Goodby, **${user}** :sob:"
+}
