@@ -1,2 +1,0 @@
-export token=NTY0NTY0OTAzNTgzNjc4NTE1.XKpuUA.uWf_eN819dYozrqrWPSMt0D_6RE
-node index
