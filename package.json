@@ -1,6 +1,6 @@
 {
   "name": "boopisbot",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The Renaissance.",
   "main": "index.js",
   "scripts": {
