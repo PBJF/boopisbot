@@ -5,7 +5,7 @@ Boopis Bot is an open-source Discord bot, forked from Bepis Bot, which was made 
 
 # Setup
 1) Edit config.json to your liking (more documentation below)
-2) Export an enviroment variable named **token** as your Discord bot token. On Unix systems, this can be done with the command `export token=(your token here`.
+2) Export an enviroment variable named **token** as your Discord bot token. On Unix systems, this can be done with the command `export token=yourTokenHere`.
 3) Start the bot with the command `node index.js` and... your bot is running!
 
 # Configuring
