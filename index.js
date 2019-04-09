@@ -41,6 +41,7 @@ client.on("message",msg => {
 });
 
 client.on("guildMemberAdd",member => {
+<<<<<<< HEAD
 	let channel = member.guild.channels.find("id","564479798986932246");
 	let msg = config.joinmsg;
 	msg = msg.replace("${user}",member.user.username);
@@ -52,6 +53,19 @@ client.on("guildMemberRemove",member => {
 	let msg = config.leavemsg;
 	msg = msg.replace("${user}",member.user.username);
 	channel.send(msg);
+=======
+	let general = member.guild.channels.find("name", "general");
+	let msg = config.joinmsg;
+	msg.replace("${user}",member.user.username);
+	general.send(msg);
+});
+
+client.on("guildMemberRemove",member => {
+	let general = member.guild.channels.find("name", "general");
+	let msg = config.leavemsg;
+	msg.replace("${user}",member.user.username);
+	general.send(msg);
+>>>>>>> 2a3bc932b7a36c1d6ffc0cd6288eb100a7369f8f
 });
 
 //Login
