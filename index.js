@@ -41,16 +41,16 @@ client.on("message",msg => {
 });
 
 client.on("guildMemberAdd",member => {
-	let channel = member.guild.channels.find("id","442852792751882242");
+	let channel = member.guild.channels.find("id","564479798986932246");
 	let msg = config.joinmsg;
-	msg.replace("${user}",member.user.username);
+	msg = msg.replace("${user}",member.user.username);
 	channel.send(msg);
 });
 
 client.on("guildMemberRemove",member => {
-	let channel = member.guild.channels.find("id","442852792751882242");
+	let channel = member.guild.channels.find("id","564479798986932246");
 	let msg = config.leavemsg;
-	msg.replace("${user}",member.user.username);
+	msg = msg.replace("${user}",member.user.username);
 	channel.send(msg);
 });
 
