@@ -8,7 +8,7 @@ var commands = [];
 //Commands
 commands.push(new Command(
 	"bepis",
-	"Shows how many shmekels u habe",
+	"Shows total Bepis.",
 	{
 		args: [
 			{
