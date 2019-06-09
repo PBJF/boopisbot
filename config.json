@@ -3,31 +3,16 @@
 	"gameloopinterval": 300000,
 	"gameloop": [
 		{
-			"text": "with shibes!",
-			"type": "PLAYING"
+			"type": "PLAYING",
+			"text": "with shibes"
 		},
 		{
-			"text": "with precious potats",
-			"type": "PLAYING"
+			"type": "WATCHING",
+			"text": "your shibes"
 		},
 		{
-			"text": "the Bepis Sing machine",
-			"type": "LISTENING"
-		},		
-		{
-			"text": "your commands",
-			"type": "LISTENING"
-		},
-		{
-			"text": "your shibes",
-			"type": "WATCHING"
-		},
-		
-		{
-			"text": "Mlem Boys",
-			"type": "WATCHING"
+			"type": "LISTENING",
+			"text": "bepis sing machine"
 		}
-	],
-	"joinmsg": "Welcome, **${user}**, to the Shibe Cult! Please read #important for more info",
-	"leavemsg": "Goodbye, **${user}** :sob:"
+	]
 }

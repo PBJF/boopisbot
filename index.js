@@ -41,28 +41,14 @@ client.on("message",msg => {
 });
 
 client.on("guildMemberAdd",member => {
-	let channel = member.guild.channels.find("id","564479798986932246");
-	let msg = config.joinmsg;
-	msg = msg.replace("${user}",member.user.username);
-	channel.send(msg);
+	member.addRole("580147114122936320");
+	let channel = member.guild.channels.find("id","580138858239361094");
+	channel.send("Welcome, **" + member.user.username + "**, to the Shibe Cult!");
 });
 
 client.on("guildMemberRemove",member => {
-	let channel = member.guild.channels.find("id","564479798986932246");
-	let msg = config.leavemsg;
-	msg = msg.replace("${user}",member.user.username);
-	channel.send(msg);
-	let general = member.guild.channels.find("name", "general");
-	let msg = config.joinmsg;
-	msg.replace("${user}",member.user.username);
-	general.send(msg);
-});
-
-client.on("guildMemberRemove",member => {
-	let general = member.guild.channels.find("name", "general");
-	let msg = config.leavemsg;
-	msg.replace("${user}",member.user.username);
-	general.send(msg);
+	let channel = member.guild.channels.find("id","580138858239361094");
+	channel.send("Goodbye, **" + member.user.username + "** :sob:");
 });
 
 //Login

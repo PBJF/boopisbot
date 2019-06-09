@@ -73,10 +73,10 @@ module.exports = {
 				if(canexecute){
 					command.execute(client,msg,args);
 				} else{
-					msg.channel.send(":no_entry_sign: This command is not for potats!");
+					msg.channel.send(":no_entry_sign: Error: You do not have permission to execute that command.");
 				}
 			} else{
-				msg.channel.send(":question: I don't know that trick!");
+				msg.channel.send(":no_entry_sign: Error: Unknown command.");
 			}
 		}
 	}

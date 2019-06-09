@@ -1,7 +1,7 @@
 {
   "name": "boopisbot",
-  "version": "0.0.1",
-  "description": "The Renaissance.",
+  "version": "1.0.0",
+  "description": "superior to bepis bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/PBJF/boopisbot.git"
   },
-  "author": "anonymous",
+  "author": "programmer >:3",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PBJF/boopisbot/issues"
@@ -18,7 +18,6 @@
   "homepage": "https://github.com/PBJF/boopisbot#readme",
   "dependencies": {
     "colors": "^1.3.3",
-    "discord.js": "^11.4.2",
-    "mongodb": "^3.2.3"
+    "discord.js": "^11.5.1"
   }
 }
